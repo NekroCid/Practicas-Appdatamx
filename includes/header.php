@@ -7,15 +7,12 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="../favicon.ico">
 
     <title>Practicas</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="starter-template.css" rel="stylesheet">
+    <link href="../dist/css/bootstrap.min.css" rel="stylesheet">
     <style media="screen">
     body {
       padding-top: 5rem;
@@ -30,13 +27,13 @@
   <body>
 
     <nav class="navbar navbar-fixed-top navbar-dark bg-primary">
-      <a class="navbar-brand active" href="index.php">Practicas</a>
+      <a class="navbar-brand active" href="../index.php">Practicas</a>
       <ul class="nav navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="practica.php">Practica 1</a>
+          <a class="nav-link" href="../practica.php">Practica 1</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="practica2.php">Practica 2</a>
+          <a class="nav-link" href="../practica2.php">Practica 2</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Practica 3
@@ -48,6 +45,9 @@
             <a  class="dropdown-item" href="multiplicacion.php">Multiplicacion</a>
             <a  class="dropdown-item" href="division.php">Division</a>
           </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../practica4/">Practica 4</a>
         </li>
           <?php
           session_start();

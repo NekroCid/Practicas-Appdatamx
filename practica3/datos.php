@@ -1,18 +1,18 @@
-<?php include('header.php') ?>
+<?php include('../includes/header.php') ?>
   <form class="" action="" method="post">
     <?php if(isset($_SESSION["nombre"])){echo "<fieldset disabled>";}?>
     <div class="form-group row">
-    <label for="example-text-input" class="col-xs-2 col-form-label">Nombre</label>
-    <div class="col-xs-10">
-      <input class="form-control" type="text" placeholder="Introduce tu nombre" id="name" name="name" value="<?php if(isset($_SESSION["nombre"])){echo $_SESSION["nombre"];} ?>">
+      <label for="example-text-input" class="col-xs-2 col-form-label">Nombre</label>
+      <div class="col-xs-10">
+        <input class="form-control" type="text" placeholder="Introduce tu nombre" id="name" name="name" value="<?php if(isset($_SESSION["nombre"])){echo $_SESSION["nombre"];} ?>">
+      </div>
     </div>
-  </div>
-  <div class="form-group row">
-    <label for="example-text-input" class="col-xs-2 col-form-label">Número Uno</label>
-    <div class="col-xs-3">
-      <input class="form-control" type="number" id="n1" name="n1" placeholder="Introduce un número" value="<?php if(isset($_SESSION["nombre"])){echo $_SESSION["n"];} ?>">
+    <div class="form-group row">
+      <label for="example-text-input" class="col-xs-2 col-form-label">Número Uno</label>
+      <div class="col-xs-3">
+        <input class="form-control" type="number" id="n1" name="n1" placeholder="Introduce un número" value="<?php if(isset($_SESSION["nombre"])){echo $_SESSION["n"];} ?>">
+      </div>
     </div>
-  </div>
   <div class="form-group row">
     <label for="example-text-input" class="col-xs-2 col-form-label">Número Dos</label>
     <div class="col-xs-3">
@@ -38,4 +38,4 @@
   }
 
 ?>
-<?php include('footer.php') ?>
+<?php include('../includes/footer.php') ?>

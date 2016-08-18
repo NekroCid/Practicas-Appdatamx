@@ -24,6 +24,10 @@ class control
     $new = new user($data);
     $new->save();
   }
+  function mostrar(){
+    $find = user::find('all', array('select' => 'nombre, pass'));
+    return $find;
+  }
 }
 
 
