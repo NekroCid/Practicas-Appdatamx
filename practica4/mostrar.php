@@ -22,7 +22,4 @@ include 'controllers/control.php' ?>
       }
       ?>
     </table>
-     <form class="" action="index.php" method="post">
-       <button type="submit" name="button">Regresar</button>
-     </form>
 <?php include('../includes/footer.php'); ?>

@@ -13,6 +13,6 @@ include 'controllers/control.php' ?>
            <input class="form-control" type="password" id="n1" name="pw" placeholder="Introduce una contraseña" value="<?php if(isset($_SESSION["nombre"])){echo $_SESSION["n"];} ?>">
          </div>
        </div>
-       <button type="submit" name="button">enviar</button>
+       <button type="submit" class="btn btn-primary">Enviar</button>
      </form>
 <?php include('../includes/footer.php'); ?>
