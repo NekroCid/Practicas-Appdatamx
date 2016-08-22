@@ -1,11 +1,8 @@
 <?php include('../includes/header.php');
 include('conexion.php');
-   // echo "<h3>Conexion Exitosa PHP - PostgreSQL</h3><hr><br>";
    if (isset($_POST ['nombre'])) {
-     // $result = pg_query($connect, "INSERT INTO 'user'(nombre, pass) VALUES('".$_POST['name']."', '".$_POST['pw']."');");
      $res = pg_insert($connect, 'user', $_POST);
      header('Location: index.php?res=$res');
-    //  echo "Insert";
    }
    pg_close($connect);
     ?>
