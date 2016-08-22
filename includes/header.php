@@ -22,24 +22,24 @@
       <a class="navbar-brand active" href="../index.php">Practicas</a>
       <ul class="nav navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="../practica.php">Practica 1</a>
+          <a class="nav-link" href="../practica.php"><i class="fa fa-font" aria-hidden="true"></i> Practica 1</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="../practica2.php">Practica 2</a>
+          <a class="nav-link" href="../practica2.php"><i class="fa fa-table" aria-hidden="true"></i> Practica 2</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Practica 3
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-user" aria-hidden="true"></i> Practica 3
           <span class="caret"></span></a>
           <div class="dropdown-menu" aria-labelledby="Preview">
-            <a  class="dropdown-item" href="datos.php">Datos</a>
-            <a  class="dropdown-item" href="suma.php">Suma</a>
-            <a  class="dropdown-item" href="resta.php">Resta</a>
-            <a  class="dropdown-item" href="multiplicacion.php">Multiplicacion</a>
-            <a  class="dropdown-item" href="division.php">Division</a>
+            <a  class="dropdown-item" href="../practica3/datos.php">Datos</a>
+            <a  class="dropdown-item" href="../practica3/suma.php">Suma</a>
+            <a  class="dropdown-item" href="../practica3/resta.php">Resta</a>
+            <a  class="dropdown-item" href="../practica3/multiplicacion.php">Multiplicacion</a>
+            <a  class="dropdown-item" href="../practica3/division.php">Division</a>
           </div>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Practica 4
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-database" aria-hidden="true"></i> Practica 4
           <span class="caret"></span></a>
           <div class="dropdown-menu" aria-labelledby="Preview">
             <a  class="dropdown-item" href="../practica4/">Introducir datos</a>
@@ -47,7 +47,7 @@
           </div>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Practica 5
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-database" aria-hidden="true"></i> Practica 5
           <span class="caret"></span></a>
           <div class="dropdown-menu" aria-labelledby="Preview">
             <a  class="dropdown-item" href="../practica5/">Introducir datos</a>

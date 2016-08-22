@@ -9,7 +9,7 @@ include('conexion.php');
     //      echo "El usuario debe haber enviado entradas incorrectas\n";
     //  }
   }
-   $query = "select * from public.user";
+   $query = "select * from public.user order by id";
    $resultado = pg_query($connect, $query) or die("Error en la Consulta SQL");
    $numReg = pg_num_rows($resultado);
     if($numReg>0){?>

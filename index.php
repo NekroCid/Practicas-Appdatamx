@@ -4,18 +4,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/css/bootstrap.min.css" integrity="sha384-MIwDKRSSImVFAZCVLtU0LMDdON6KVCrZHyVQQj6e8wIEJkW4tvwqXrbMIya1vriY" crossorigin="anonymous">
     <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
 
     <title>Practicas</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="starter-template.css" rel="stylesheet">
     <style media="screen">
     body {
       padding-top: 5rem;
@@ -30,16 +23,16 @@
   <body>
 
     <nav class="navbar navbar-fixed-top navbar-dark bg-primary">
-      <a class="navbar-brand active" href="index.php">Practicas</a>
+      <a class="navbar-brand active" href="../index.php">Practicas</a>
       <ul class="nav navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="practica.php">Practica 1</a>
+          <a class="nav-link" href="practica.php"><i class="fa fa-font" aria-hidden="true"></i> Practica 1</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="practica2.php">Practica 2</a>
+          <a class="nav-link" href="practica2.php"><i class="fa fa-table" aria-hidden="true"></i> Practica 2</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Practica 3
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-user" aria-hidden="true"></i> Practica 3
           <span class="caret"></span></a>
           <div class="dropdown-menu" aria-labelledby="Preview">
             <a  class="dropdown-item" href="practica3/datos.php">Datos</a>
@@ -49,8 +42,21 @@
             <a  class="dropdown-item" href="practica3/division.php">Division</a>
           </div>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="practica4/">Practica 4</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-database" aria-hidden="true"></i> Practica 4
+          <span class="caret"></span></a>
+          <div class="dropdown-menu" aria-labelledby="Preview">
+            <a  class="dropdown-item" href="practica4/">Introducir datos</a>
+            <a  class="dropdown-item" href="practica4/mostrar.php">Mostrar datos</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-database" aria-hidden="true"></i> Practica 5
+          <span class="caret"></span></a>
+          <div class="dropdown-menu" aria-labelledby="Preview">
+            <a  class="dropdown-item" href="practica5/">Introducir datos</a>
+            <a  class="dropdown-item" href="practica5/mostrar.php">Mostrar datos</a>
+          </div>
         </li>
           <?php
           session_start();

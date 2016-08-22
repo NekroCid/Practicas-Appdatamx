@@ -12,7 +12,7 @@ include('conexion.php');
    pg_close($connect);
     ?>
     <form class="" action="edit.php" method="post">
-      <input class="form-control" type="hidden" placeholder="Introduce tu nombre" id="id" name="id" value="<?php echo $rec[0]['id']; ?>">
+      <input class="form-control" type="hidden" placeholder="" id="id" name="id" value="<?php echo $rec[0]['id']; ?>">
       <div class="form-group row">
         <label for="example-text-input" class="col-xs-2 col-form-label">Nombre</label>
         <div class="col-xs-10">
@@ -22,7 +22,7 @@ include('conexion.php');
       <div class="form-group row">
         <label for="example-text-input" class="col-xs-2 col-form-label">Password</label>
         <div class="col-xs-3">
-          <input class="form-control" type="password" id="n1" name="pass" placeholder="Introduce una contraseña" value="<?php echo $rec[0]['pass']; ?>">
+          <input class="form-control" type="password" id="pass" name="pass" placeholder="Introduce una contraseña" value="<?php echo $rec[0]['pass']; ?>">
         </div>
       </div>
       <button type="submit" class="btn btn-primary">Actualizar</button>
